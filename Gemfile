@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'mongoid', '~> 6.0'
+gem 'bson_ext'
 group :production do
   gem 'rails_12factor'
 end
